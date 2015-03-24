@@ -16,5 +16,7 @@
         <script type="text/javascript">
             app.initialize();
         </script>
+		
+		<?php phpinfo(); ?>
     </body>
 </html>
