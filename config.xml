@@ -25,7 +25,7 @@
     <preference name="android-installLocation" value="auto" />
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.camera.CameraLauncher" />
+    <gap:plugin name="org.apache.cordova.CameraLauncher" />
     <gap:plugin name="org.apache.cordova.media-capture" />
     <gap:plugin name="org.apache.cordova.console" />
     <gap:plugin name="org.apache.cordova.contacts" />
@@ -69,6 +69,6 @@
     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*" />
 	<feature name="Camera">
-		<param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+		<param name="android-package" value="org.apache.cordova.CameraLauncher" />
 	</feature>
 </widget>
